@@ -1,7 +1,0 @@
-Name: @Age of Wohltritt@
-Path: @T:\ADATBÁZIS\Age of Empires III\AoE3Ed\MOD\WWVAoE3@
-Loadimage: @T:\ADATBÁZIS\Age of Empires III\AoE3Ed\MOD\WWVAoE3\STMHorgel.bmp@
-Executable: @age3y@
-Use Customizer: @false@
-Version: @1.0@
-ShowInfo: @False@
