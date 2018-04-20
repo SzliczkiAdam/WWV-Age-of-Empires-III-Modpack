@@ -4637,10 +4637,10 @@
 	<soundset name="TruckExist" volume="0.5500" maxnum="4" distance="1.0000">
 		<sound filename="TruckExist.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="TruckSelect" volume="0.9000" maxnum="1" distance="1.0000">
+	<soundset name="TruckSelect" volume="0.9000" maxnum="4" distance="1.0000">
 		<sound filename="TruckSelect.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="TruckAcknowledge" volume="0.9500" maxnum="1" distance="1.0000">
+	<soundset name="TruckAcknowledge" volume="0.9500" maxnum="4" distance="1.0000">
 		<sound filename="TruckMove.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="LazerBearBirth" volume="0.8500" maxnum="4" distance="1.0000">
@@ -4663,5 +4663,22 @@
 	</soundset>
 	<soundset name="LazerBearExist" volume="0.3500" maxnum="4" distance="1.0000">
 		<sound filename="LazerBearExist.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="CrusaderSelect" volume="0.7000" maxnum="4" distance="1.0000">
+		<sound filename="CrusaderSelect1.wav" volume="0.9500"/>
+		<sound filename="CrusaderSelect2.wav" volume="1.0000"/>
+		<sound filename="CrusaderSelect3.wav" volume="0.8500"/>
+		<sound filename="CrusaderSelect4.wav" volume="0.8500"/>
+	</soundset>
+	<soundset name="CrusaderAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+		<sound filename="CrusaderMove1.wav" volume="1.0000"/>
+		<sound filename="CrusaderMove2.wav" volume="0.9500"/>
+		<sound filename="CrusaderMove3.wav" volume="0.9000"/>
+		<sound filename="CrusaderMove4.wav" volume="0.9000"/>
+	</soundset>
+	<soundset name="CrusaderAttack" volume="0.7000" maxnum="4" distance="1.0000">
+		<sound filename="CrusaderAttack1.wav" volume="0.9000"/>
+		<sound filename="CrusaderAttack2.wav" volume="0.9500"/>
+		<sound filename="CrusaderAttack3.wav" volume="1.0000"/>
 	</soundset>
 </soundsetdef>
