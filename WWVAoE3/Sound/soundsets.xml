@@ -4631,16 +4631,16 @@
 		<sound filename="GeorgeCrushingtonBlam1.wav" volume="0.9000"/>
 		<sound filename="GeorgeCrushingtonBlam3.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="TruckBirth" volume="0.8500" maxnum="10" distance="1.0000">
+	<soundset name="TruckBirth" volume="0.9500" maxnum="10" distance="1.0000">
 		<sound filename="TruckBirth.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="TruckExist" volume="0.5500" maxnum="4" distance="1.0000">
+	<soundset name="TruckExist" volume="0.6500" maxnum="4" distance="1.0000">
 		<sound filename="TruckExist.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="TruckSelect" volume="0.9000" maxnum="4" distance="1.0000">
+	<soundset name="TruckSelect" volume="0.9000" maxnum="1" distance="1.0000">
 		<sound filename="TruckSelect.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="TruckAcknowledge" volume="0.9500" maxnum="4" distance="1.0000">
+	<soundset name="TruckAcknowledge" volume="0.9000" maxnum="1" distance="1.0000">
 		<sound filename="TruckMove.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="LazerBearBirth" volume="0.8500" maxnum="4" distance="1.0000">
