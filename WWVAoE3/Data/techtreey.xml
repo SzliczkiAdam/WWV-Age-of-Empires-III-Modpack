@@ -1837,6 +1837,15 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypDacoit</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCWeaponsCache</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Mine</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Miner</Target>
+			</Effect>
 			<Effect type="SetName" proto="Church" culture="none" newName="23779"/>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Explorer</Target>
@@ -14072,6 +14081,9 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FactoryWagon" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Kunigunde" relativity="Absolute">
+				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -38829,9 +38841,6 @@
 		<RolloverTextID>46810</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Cow" relativity="Absolute">
-				<Target type="ProtoUnit">LivestockPen</Target>
-			</Effect>
 			<Effect type="TextOutput">46813</Effect>
 			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Cow" relativity="Absolute">
 				<Target type="ProtoUnit">Farm</Target>
