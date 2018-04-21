@@ -75,9 +75,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Miner</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="PopulationCount" relativity="Assign">
-				<Target type="ProtoUnit">Musketeer</Target>
-			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
@@ -690,7 +687,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-							<Target type="ProtoUnit">SPCAlain2</Target>
+				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
