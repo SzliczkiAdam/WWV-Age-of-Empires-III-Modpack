@@ -25,25 +25,16 @@
 				<Target type="ProtoUnit">IGCTrainStation</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
+				<Target type="ProtoUnit">SPCWagonAll</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
+				<Target type="ProtoUnit">SPCWagonFood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
+				<Target type="ProtoUnit">SPCWagonWood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">SPCWagonGold</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -74,6 +65,9 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Miner</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PopulationCount" relativity="Assign">
+				<Target type="ProtoUnit">Musketeer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
@@ -366,7 +360,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-							<Target type="ProtoUnit">SPCAlain2</Target>
+				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
@@ -384,25 +378,16 @@
 				<Target type="ProtoUnit">IGCTrainStation</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
+				<Target type="ProtoUnit">SPCWagonAll</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
+				<Target type="ProtoUnit">SPCWagonFood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
+				<Target type="ProtoUnit">SPCWagonWood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">SPCWagonGold</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -705,25 +690,16 @@
 				<Target type="ProtoUnit">IGCTrainStation</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
+				<Target type="ProtoUnit">SPCWagonAll</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
+				<Target type="ProtoUnit">SPCWagonFood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
+				<Target type="ProtoUnit">SPCWagonWood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">SPCWagonGold</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -984,25 +960,16 @@
 				<Target type="ProtoUnit">IGCTrainStation</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
+				<Target type="ProtoUnit">SPCWagonAll</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
+				<Target type="ProtoUnit">SPCWagonFood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
+				<Target type="ProtoUnit">SPCWagonWood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">SPCWagonGold</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -1252,7 +1219,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">			
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -1268,25 +1235,16 @@
 				<Target type="ProtoUnit">IGCTrainStation</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
+				<Target type="ProtoUnit">SPCWagonAll</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
+				<Target type="ProtoUnit">SPCWagonFood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
+				<Target type="ProtoUnit">SPCWagonWood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">SPCWagonGold</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -1556,40 +1514,22 @@
 				<Target type="ProtoUnit">IGCTrainStation</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
+				<Target type="ProtoUnit">SPCWagonAll</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
+				<Target type="ProtoUnit">SPCWagonFood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
+				<Target type="ProtoUnit">SPCWagonWood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">SPCWagonGold</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCWeaponsCache</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Mine</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Miner</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Explorer</Target>
@@ -1808,40 +1748,22 @@
 				<Target type="ProtoUnit">IGCTrainStation</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
+				<Target type="ProtoUnit">SPCWagonAll</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
+				<Target type="ProtoUnit">SPCWagonFood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
+				<Target type="ProtoUnit">SPCWagonWood</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">SPCWagonGold</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCWeaponsCache</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Mine</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Miner</Target>
 			</Effect>
 			<Effect type="SetName" proto="Church" culture="none" newName="23779"/>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -2065,48 +1987,6 @@
 				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCOssuary</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBaker</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBarn</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IGCTrainStation</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">BerryBush</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -2128,9 +2008,6 @@
 				<Target type="ProtoUnit">Mine</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Miner</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Bodega</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -2138,6 +2015,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="PopulationCount" relativity="Assign">
 				<Target type="ProtoUnit">Musketeer</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Miner</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Hussar</Target>
@@ -2626,108 +2506,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCOssuary</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBaker</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBarn</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IGCTrainStation</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercFusilier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCWeaponsCache</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MineGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IIindustrialRevolution</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Miner</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kabuhmburg</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Boneguard</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">BoneguardAge2</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kaiser</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kunigunde</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">TreeRockies</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercLandsknecht</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercJaeger</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercBlackRider</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -2741,7 +2519,7 @@
 				<Target type="ProtoUnit">Pikeman</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">House</Target>
+				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">UniqueSPCIndianFriendship</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -3188,105 +2966,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCOssuary</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBaker</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBarn</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IGCTrainStation</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercFusilier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCWeaponsCache</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MineGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IIindustrialRevolution</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Miner</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kabuhmburg</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Boneguard</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">BoneguardAge2</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kaiser</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kunigunde</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">TreeRockies</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercLandsknecht</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercJaeger</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercBlackRider</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Caravel</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -3418,108 +3097,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCOssuary</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBaker</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBarn</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IGCTrainStation</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercFusilier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCWeaponsCache</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MineGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IIindustrialRevolution</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Miner</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kabuhmburg</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Boneguard</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">BoneguardAge2</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kaiser</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kunigunde</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">TreeRockies</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercLandsknecht</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercJaeger</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercBlackRider</Target>
-			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Caravel</Target>
 			</Effect>
@@ -6434,108 +6011,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCOssuary</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBaker</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBarn</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IGCTrainStation</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercFusilier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCWeaponsCache</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MineGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IIindustrialRevolution</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Miner</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kabuhmburg</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Boneguard</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">BoneguardAge2</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kaiser</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kunigunde</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">TreeRockies</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercLandsknecht</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercJaeger</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercBlackRider</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpIroquoisWarChief</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -6673,108 +6148,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCOssuary</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBaker</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPBarn</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IGCTrainStation</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonAll</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonFood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonWood</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WWVWagonGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofFoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofWoodLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercFusilier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCWeaponsCache</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MineGold</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">IIindustrialRevolution</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">Bodega</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Assign">
-				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Miner</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kabuhmburg</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Boneguard</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">BoneguardAge2</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kaiser</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Kunigunde</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">TreeRockies</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercLandsknecht</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercJaeger</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MercBlackRider</Target>
-			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpIroquoisWarChief</Target>
 			</Effect>
@@ -8296,6 +7669,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="obtainable">ConsulateAllayMaker1German</Effect>
 			<Effect type="TechStatus" status="obtainable">JapaneseBerryPlantation</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedAshigaru</Effect>
 			<Effect type="TechStatus" status="obtainable">ypDisciplinedDaimyoShadow</Effect>
@@ -14078,9 +13452,6 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FactoryWagon" relativity="Absolute">
 				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Kunigunde" relativity="Absolute">
-				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -38838,6 +38209,9 @@
 		<RolloverTextID>46810</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Cow" relativity="Absolute">
+				<Target type="ProtoUnit">LivestockPen</Target>
+			</Effect>
 			<Effect type="TextOutput">46813</Effect>
 			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Cow" relativity="Absolute">
 				<Target type="ProtoUnit">Farm</Target>
@@ -61000,19 +60374,118 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	
+	<Tech name="ypHolySupport" type="Normal">
+		<DBID>5274</DBID>
+		<DisplayNameID>90005</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>90006</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+		<Tech name="ypColonialSupport" type="Normal">
+		<DBID>5275</DBID>
+		<DisplayNameID>90007</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>90008</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+		<Tech name="ypEliteGermanUnitSupport" type="Normal">
+		<DBID>5276</DBID>
+		<DisplayNameID>90009</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>90010</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+		<Tech name="ypGermanUnitSupport" type="Normal">
+		<DBID>5277</DBID>
+		<DisplayNameID>90011</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>90012</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="RGCzapkaUhlans" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+		<Tech name="ypGermanSiegeSupport" type="Normal">
+		<DBID>5278</DBID>
+		<DisplayNameID>90013</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>90014</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercGreatCannon" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
 	<Tech name="ConsulateAllayMaker1German" type="Normal">
-	    <DBID>5273</DBID>
-	    <DisplayNameID>90005</DisplayNameID>
+	    <DBID>5279</DBID>
+	    <DisplayNameID></DisplayNameID>
 		<Cost resourcetype="Food">1500.0000</Cost>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>		
 		<ResearchPoints>80.000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\eso\flag_german_icon</Icon>
-		<RolloverTextID>90006</RolloverTextID>
+		<Icon>germanflag_igc_icon</Icon>
+		<RolloverTextID></RolloverTextID>
 		<Effects>
-		    <Effect type="Data" amount="10.00" subtype="AddTrain" unittype="BerryBush" relativity="Absolute">
-				<Target type="ProtoUnit">ypRicePaddy</Target>
+		    <Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ypHolySupport" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ypColonialSupport" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ypEliteGermanUnitSupport" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ypGermanUnitSupport" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ypGermanSiegeSupport" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate</Target>
 			</Effect>
 		</Effects>
 	</Tech>
