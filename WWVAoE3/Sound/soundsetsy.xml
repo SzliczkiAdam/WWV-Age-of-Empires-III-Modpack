@@ -1940,10 +1940,10 @@
 		<sound filename="ypack\UI\FlyingKick.wav" volume="0.6000"/>
 	</soundset>
 	<soundset name="PowerCriticalStrike" volume="1.0000" maxnum="3" distance="1.0000">
-		<sound filename="ypack\UI\CriticalStrike.wav" volume="0.5000"/>
+		<sound filename="ypack\CriticalStrike2.wav" volume="0.8000"/>
 	</soundset>
 	<soundset name="PowerDivineStrike" volume="1.0000" maxnum="3" distance="1.0000">
-		<sound filename="ypack\UI\DivineStrike.wav" volume="0.5000"/>
+		<sound filename="ypack\DivineStrike2.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="PowerStomp" volume="0.6000" maxnum="3" distance="1.0000">
 		<sound filename="ypack\UI\Stomp.wav" volume="0.7000"/>
@@ -2030,4 +2030,5 @@
 	<soundset name="WonderDestroyed" volume="0.6000" maxnum="3" distance="1.0000">
 		<sound filename="ypack\UI\WonderDeath.wav" volume="0.7000"/>
 	</soundset>
+	
 </soundsetdef>
