@@ -8305,6 +8305,9 @@
 			<Effect type="TechStatus" status="obtainable">EuropeanAlly2</Effect>
 			<Effect type="TechStatus" status="obtainable">EuropeanAlly3</Effect>
 			<Effect type="TechStatus" status="obtainable">EuropeanAlly4</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly5</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly6</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly7</Effect>			
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedAshigaru</Effect>
 			<Effect type="TechStatus" status="obtainable">ypDisciplinedDaimyoShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedNaginataRider</Effect>
@@ -61018,7 +61021,7 @@
 	<Tech name="EuropeanAlly1" type="Normal">
 	    <DBID>5273</DBID>
 	    <DisplayNameID>90005</DisplayNameID>
-		<Cost resourcetype="Trade">700.0000</Cost>	
+		<Cost resourcetype="Trade">650.0000</Cost>	
 		<ResearchPoints>50.000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\morgan_black\morgan_black_igc_icon</Icon>
@@ -61042,7 +61045,7 @@
 		<Tech name="EuropeanAlly2" type="Normal">
 	    <DBID>5273</DBID>
 	    <DisplayNameID>90005</DisplayNameID>
-		<Cost resourcetype="Trade">1000.0000</Cost>	
+		<Cost resourcetype="Trade">800.0000</Cost>	
 		<ResearchPoints>50.000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\john_black\john_black_igc_icon</Icon>
@@ -61065,7 +61068,7 @@
 <Tech name="EuropeanAlly3" type="Normal">
 	    <DBID>5273</DBID>
 	    <DisplayNameID>90007</DisplayNameID>
-		<Cost resourcetype="Trade">1000.0000</Cost>	
+		<Cost resourcetype="Trade">800.0000</Cost>	
 		<ResearchPoints>50.000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\bolivar\bolivar_icon</Icon>
@@ -61092,7 +61095,7 @@
 	<Tech name="EuropeanAlly4" type="Normal">
 	    <DBID>5273</DBID>
 	    <DisplayNameID>90009</DisplayNameID>
-		<Cost resourcetype="Trade">1000.0000</Cost>	
+		<Cost resourcetype="Trade">800.0000</Cost>	
 		<ResearchPoints>50.000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\sahin\sahin_igc_icon</Icon>
@@ -61110,6 +61113,149 @@
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Spahi" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+		</Effects>
+	</Tech>
+		<Tech name="EuropeanAlly5" type="Normal">
+	    <DBID>5273</DBID>
+	    <DisplayNameID>90011</DisplayNameID>
+		<Cost resourcetype="Trade">800.0000</Cost>	
+		<ResearchPoints>50.000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\spc\edwardson\clnl_edwardson_icon_64</Icon>
+		<RolloverTextID>90012</RolloverTextID>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateRedcoat</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateLifeGuard</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCHoopThrowers</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypSPCEdwardson" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="ypConsulateRedcoat" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="ypConsulateLifeGuard" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="SPCHoopThrowers" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="EuropeanAlly6" type="Normal">
+	    <DBID>5273</DBID>
+	    <DisplayNameID>90013</DisplayNameID>
+		<Cost resourcetype="Trade">850.0000</Cost>	
+		<ResearchPoints>50.000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\chayton\chayton_portrait</Icon>
+		<RolloverTextID>90014</RolloverTextID>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateGendarmes</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateYoungGarde</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateKalmuck</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateSiberianCossack</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPChayton" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="ypConsulateGendarmes" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="ypConsulateKalmuck" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="ypConsulateSiberianCossack" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="ypConsulateYoungGarde" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+		</Tech>
+	<Tech name="EuropeanAlly7" type="Normal">
+	    <DBID>5273</DBID>
+	    <DisplayNameID>90015</DisplayNameID>
+		<Cost resourcetype="Trade">4000.0000</Cost>	
+		<ResearchPoints>50.000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\major_cooper\major_cooper_icon_64x64</Icon>
+		<RolloverTextID>90016</RolloverTextID>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateZweihander</Target>
+			</Effect>
+				<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateCzapakaUhlan</Target>
+			</Effect>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercBlackRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercFusilier</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercJaeger</Target>
+			</Effect>
+						<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercSwissPikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercLandsknecht</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCCooper" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="ypConsulateZweihander" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="ypConsulateCzapakaUhlan" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="MercBlackRider" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="MercSwissPikeman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="15.00" subtype="BuildLimit" relativity="Assign">
+				<Target type="ProtoUnit">MercLandsknecht</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Assign">
+				<Target type="ProtoUnit">MercSwissPikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="15.00" subtype="BuildLimit" relativity="Assign">
+				<Target type="ProtoUnit">MercJaeger</Target>
+			</Effect>
+			<Effect type="Data" amount="45.00" subtype="BuildLimit" relativity="Assign">
+				<Target type="ProtoUnit">MercFusilier</Target>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Assign">
+				<Target type="ProtoUnit">MercBlackRider</Target>
+			</Effect>						
 		</Effects>
 	</Tech>
 
