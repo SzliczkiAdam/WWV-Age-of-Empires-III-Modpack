@@ -61115,6 +61115,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
+
 		<Tech name="EuropeanAlly5" type="Normal">
 	    <DBID>5273</DBID>
 	    <DisplayNameID>90011</DisplayNameID>
@@ -61147,6 +61148,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	
 	<Tech name="EuropeanAlly6" type="Normal">
 	    <DBID>5273</DBID>
 	    <DisplayNameID>90013</DisplayNameID>
@@ -61185,7 +61187,6 @@
 			</Effect>
 		</Effects>
 	</Tech>
-		</Tech>
 	<Tech name="EuropeanAlly7" type="Normal">
 	    <DBID>5273</DBID>
 	    <DisplayNameID>90015</DisplayNameID>
@@ -61198,9 +61199,8 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypConsulateZweihander</Target>
 			</Effect>
-				<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypConsulateCzapakaUhlan</Target>
-			</Effect>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercBlackRider</Target>
