@@ -61211,7 +61211,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercJaeger</Target>
 			</Effect>
-						<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercSwissPikeman</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
