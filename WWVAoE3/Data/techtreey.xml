@@ -43,7 +43,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -402,7 +402,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -723,7 +723,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -1002,7 +1002,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -1286,7 +1286,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -1574,7 +1574,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -1826,7 +1826,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -2098,7 +2098,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -2662,7 +2662,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -3221,7 +3221,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -3455,7 +3455,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -6470,7 +6470,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -6710,7 +6710,7 @@
 				<Target type="ProtoUnit">CrateofWoodLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CrateofGoldLarge</Target>
+				<Target type="ProtoUnit">CrateofCoinLarge</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypThuggee</Target>
@@ -24928,6 +24928,9 @@
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="BoneguardAge2" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="TextOutput">41902</Effect>
 		</Effects>
 	</Tech>
@@ -25046,6 +25049,9 @@
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Kunigunde" relativity="Absolute">
+				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 		</Effects>
 	</Tech>
