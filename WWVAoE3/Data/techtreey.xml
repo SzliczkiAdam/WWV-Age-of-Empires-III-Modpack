@@ -16377,8 +16377,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionLouverture</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeDutch" type="Normal">
@@ -16388,8 +16386,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionBonifacio</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeFrench" type="Normal">
@@ -16399,8 +16395,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionLouverture</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionSantander</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeGerman" type="Normal">
@@ -16410,8 +16404,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionSanMartin</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionBolivar</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeOttoman" type="Normal">
@@ -16428,8 +16420,6 @@
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Spahi</Target>
 			</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionOHiggins</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionSanMartin</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializePortuguese" type="Normal">
@@ -16439,8 +16429,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionHidalgo</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionBonifacio</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeRussian" type="Normal">
@@ -16450,8 +16438,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionBolivar</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionSantander</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeSpanish" type="Normal">
@@ -16464,8 +16450,6 @@
 			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">WarDog</Target>
 			</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionHidalgo</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionOHiggins</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialRocket" type="Normal">
@@ -25043,6 +25027,9 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FactoryWagon" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Kunigunde" relativity="Absolute">
+				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
 				<Target type="Player"/>
@@ -37135,17 +37122,23 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColonialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColoxpGatlingGunnialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FishingBoat</Target>
@@ -37161,8 +37154,17 @@
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">XPRevolution</Effect>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonFood</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonGold</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonWood</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -37182,17 +37184,23 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColonialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColoxpGatlingGunnialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FishingBoat</Target>
@@ -37204,12 +37212,22 @@
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">xpGatlingGun</Target>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">XPRevolution</Effect>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonFood</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonGold</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonWood</Target>
+			</Effect>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -37229,17 +37247,23 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColonialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColoxpGatlingGunnialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FishingBoat</Target>
@@ -37251,15 +37275,27 @@
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="TechStatus" status="active">XPRevolution</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonFood</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonGold</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonWood</Target>
+			</Effect>
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="OutlawPistol" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="OutlawRider" relativity="Absolute">
 				<Target type="Player"/>
-			</Effect>
-			<Effect type="TechStatus" status="active">XPRevolution</Effect>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SettlerWagon</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -37279,17 +37315,23 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColonialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColoxpGatlingGunnialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FishingBoat</Target>
@@ -37301,16 +37343,29 @@
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="TechStatus" status="active">XPRevolution</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonFood</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonGold</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonWood</Target>
+			</Effect>
 			<Effect type="TechStatus" status="active">ChampionTupi</Effect>
 			<Effect type="TechStatus" status="active">WarriorSocietyTupi</Effect>
 			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="NatBlackwoodArcher" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="TechStatus" status="active">XPRevolution</Effect>
 			<Effect type="TechStatus" status="active">ImpLegendaryNatives</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SettlerWagon</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="XPRevolutionBolivar" type="Normal">
@@ -37329,17 +37384,23 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColonialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColoxpGatlingGunnialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FishingBoat</Target>
@@ -37351,12 +37412,24 @@
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Unit</Target>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">XPRevolution</Effect>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonFood</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonGold</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonWood</Target>
+			</Effect>
+			<Effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Unit</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -37376,17 +37449,23 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColonialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColoxpGatlingGunnialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FishingBoat</Target>
@@ -37398,15 +37477,27 @@
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="TechStatus" status="active">XPRevolution</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonFood</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonGold</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonWood</Target>
+			</Effect>
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Mortar" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="TechStatus" status="active">XPRevolution</Effect>
 			<Effect type="TechStatus" status="active">ImperialHowitzer</Effect>
 			<Effect type="TechStatus" status="active">Howitzer</Effect>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SettlerWagon</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="XPRevolutionSantander" type="Normal">
@@ -37425,17 +37516,23 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColonialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColoxpGatlingGunnialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FishingBoat</Target>
@@ -37447,15 +37544,24 @@
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpIronclad" relativity="Absolute">
-				<Target type="Player"/>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">XPRevolution</Effect>
-			<Effect type="Data" action="MaintainSettlersOttoman" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-				<Target type="ProtoUnit">TownCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonFood</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonGold</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonWood</Target>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpIronclad" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -37475,17 +37581,23 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="30.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColonialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpColoxpGatlingGunnialMilitia" relativity="Absolute">
+				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FishingBoat</Target>
@@ -37497,19 +37609,28 @@
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="TechStatus" status="active">XPRevolution</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonFood</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonGold</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="3.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">WWVWagonWood</Target>
+			</Effect>
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="TechStatus" status="active">XPRevolution</Effect>
 			<Effect type="TechStatus" status="active">ImperialHussars</Effect>
 			<Effect type="TechStatus" status="active">GuardHussars</Effect>
 			<Effect type="TechStatus" status="active">VeteranHussars</Effect>
-			<Effect type="Data" action="MaintainSettlersOttoman" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-				<Target type="ProtoUnit">TownCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SettlerWagon</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="SpiesNative" type="Normal">
