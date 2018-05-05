@@ -29282,6 +29282,9 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPNathanielNative" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">xpSPCColonialMilitia</Target>
+			</Effect>	
 		</Effects>
 	</Tech>
 	<Tech name="BigCorralHorseSecrets" type="Normal">
@@ -37072,11 +37075,20 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpDogSoldier" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpDogSoldier" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPCrazyHorse" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPNativeChayton" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpSPCColonialMilitia" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">xpSPCColonialMilitia</Target>
 			</Effect>			
 		</Effects>
 	</Tech>
