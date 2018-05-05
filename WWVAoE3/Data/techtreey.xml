@@ -37058,7 +37058,8 @@
 	<Tech name="BigSiouxDogSoldiers" type="Normal">
 		<DBID>3265</DBID>
 		<DisplayNameID>45899</DisplayNameID>
-		<Cost resourcetype="Food">1500.0000</Cost>
+		<Cost resourcetype="Food">750.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>		
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance4</Icon>
@@ -37071,9 +37072,12 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="-0.67" subtype="FreeHomeCityUnit" unittype="xpDogSoldier" relativity="Absolute">
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpDogSoldier" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPCrazyHorse" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>			
 		</Effects>
 	</Tech>
 	<Tech name="SPCXPValleyForge" type="Normal">
