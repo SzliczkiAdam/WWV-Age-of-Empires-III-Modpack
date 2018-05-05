@@ -29249,48 +29249,21 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpTomahawk</Target>
-			</Effect>
-			<Effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpAenna</Target>
-			</Effect>
-			<Effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpMusketWarrior</Target>
-			</Effect>
-			<Effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpAenna</Target>
-			</Effect>
-			<Effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpAenna</Target>
-			</Effect>
-			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
-				<Target type="ProtoUnit">xpAenna</Target>
-			</Effect>
-			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
-				<Target type="ProtoUnit">xpTomahawk</Target>
-			</Effect>
-			<Effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpTomahawk</Target>
-			</Effect>
-			<Effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpTomahawk</Target>
-			</Effect>
-			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
-				<Target type="ProtoUnit">xpMusketWarrior</Target>
-			</Effect>
-			<Effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpMusketWarrior</Target>
-			</Effect>
-			<Effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">xpMusketWarrior</Target>
-			</Effect>
+		<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpTomahawk" relativity="Absolute">
+			<Target type="Player"/>
+		</Effect>
+		<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpMusketWarrior" relativity="Absolute">
+			<Target type="Player"/>
+		</Effect>
+		<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpAenna" relativity="Absolute">
+			<Target type="Player"/>
+		</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="BigIroquoisScoutingParty" type="Normal">
 		<DBID>2746</DBID>
 		<DisplayNameID>43616</DisplayNameID>
-		<Cost resourcetype="Food">500.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -29303,7 +29276,10 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpTomahawk" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpSPCColonialMilitia" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPNathanielNative" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -29324,11 +29300,11 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
-				<Target type="ProtoUnit">xpHorseman</Target>
+		<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpMusketRider" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
-				<Target type="ProtoUnit">xpMusketRider</Target>
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpHorseman" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -29507,8 +29483,8 @@
 	<Tech name="BigSiegeshopSiegeDrill" type="Normal">
 		<DBID>2769</DBID>
 		<DisplayNameID>43659</DisplayNameID>
-		<Cost resourcetype="Food">500.0000</Cost>
-		<Cost resourcetype="Wood">500.0000</Cost>
+		<Cost resourcetype="Food">300.0000</Cost>
+		<Cost resourcetype="Wood">300.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
@@ -29520,13 +29496,13 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">xpMantlet</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">xpRam</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">xpLightCannon</Target>
 			</Effect>
 		</Effects>
@@ -36955,8 +36931,7 @@
 	<Tech name="BigIroquoisRaidingParty" type="Normal">
 		<DBID>3254</DBID>
 		<DisplayNameID>45721</DisplayNameID>
-		<Cost resourcetype="Food">500.0000</Cost>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -36973,14 +36948,18 @@
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpTomahawk" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpMusketWarrior" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpMusketRider" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="BigIroquoisWarParty" type="Normal">
 		<DBID>3255</DBID>
 		<DisplayNameID>45723</DisplayNameID>
-		<Cost resourcetype="Food">500.0000</Cost>
-		<Cost resourcetype="Wood">500.0000</Cost>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -36995,6 +36974,15 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpTomahawk" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpMusketRider" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpHorseman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="xpLightCannon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
