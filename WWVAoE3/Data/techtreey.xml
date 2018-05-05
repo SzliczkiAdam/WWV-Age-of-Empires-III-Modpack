@@ -16380,6 +16380,8 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionLouverture</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeDutch" type="Normal">
@@ -16389,6 +16391,8 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionBonifacio</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeFrench" type="Normal">
@@ -16398,6 +16402,8 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionLouverture</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionSantander</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeGerman" type="Normal">
@@ -16407,6 +16413,8 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionSanMartin</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionBolivar</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeOttoman" type="Normal">
@@ -16423,6 +16431,8 @@
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Spahi</Target>
 			</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionOHiggins</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionSanMartin</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializePortuguese" type="Normal">
@@ -16432,6 +16442,8 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionHidalgo</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionBonifacio</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeRussian" type="Normal">
@@ -16441,6 +16453,8 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionBolivar</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionSantander</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeSpanish" type="Normal">
@@ -16453,6 +16467,8 @@
 			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">WarDog</Target>
 			</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionHidalgo</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionOHiggins</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialRocket" type="Normal">
