@@ -7537,6 +7537,9 @@
 			<Effect type="TechStatus" status="active">YPAge0ChineseUnits</Effect>
 			<Effect type="TechStatus" status="active">YPAge0ChineseBuildings</Effect>
 			<Effect type="TechStatus" status="active">YPAge0ChineseWonders</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate2</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPAge0Indians" type="Normal">
@@ -7544,6 +7547,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulate2</Target>
+			</Effect>
 			<Effect type="TechStatus" status="active">YPAAAsianStartingTechs</Effect>
 			<Effect type="TechStatus" status="active">ypAge0IndiansBuildings</Effect>
 			<Effect type="TechStatus" status="active">ypAge0IndiansUnits</Effect>
@@ -8794,7 +8800,7 @@
 			<Effect type="TechStatus" status="obtainable">ypMonasteryDiscipleAura</Effect>
 			<Effect type="TechStatus" status="obtainable">ypVillagePopCapIncrease5</Effect>
 			<Effect type="TechStatus" status="obtainable">ypVillagePopCapIncrease4</Effect>
-			<Effect type="Data" amount="20.00" subtype="PopulationCapExtra" relativity="Absolute">
+			<Effect type="Data" amount="100.00" subtype="PopulationCapExtra" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -8916,7 +8922,10 @@
 			<Effect type="TechStatus" status="obtainable">ypMarketHuntingDogs</Effect>
 			<Effect type="TechStatus" status="obtainable">ypVillagePopCapIncrease4</Effect>
 			<Effect type="TechStatus" status="obtainable">ypMarketWheelbarrow2</Effect>
-			<Effect type="Data" amount="20.00" subtype="PopulationCapExtra" relativity="Absolute">
+			<Effect type="Data" amount="100.00" subtype="PopulationCapExtra" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="CoveredWagon" relativity="Absolute">
@@ -8959,6 +8968,13 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly1</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly2</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly3</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly4</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly5</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly6</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly7</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedChuKoNu</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedQiangPikeman</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedKeshik</Effect>
@@ -9825,6 +9841,13 @@
 	<Tech name="ypAge0IndiansTechs" type="Normal">
 		<DBID>5169</DBID>
 		<Effects>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly1</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly2</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly3</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly4</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly5</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly6</Effect>
+			<Effect type="TechStatus" status="obtainable">EuropeanAlly7</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedCamel</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedCamelGun</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedRajput</Effect>
@@ -46690,7 +46713,8 @@
 	<Tech name="ypVillagePopCapIncrease2" type="Normal">
 		<DBID>4050</DBID>
 		<DisplayNameID>61956</DisplayNameID>
-		<Cost resourcetype="Wood">200.0000</Cost>
+		<Cost resourcetype="Wood">250.0000</Cost>
+		<Cost resourcetype="Gold">250.0000</Cost>		
 		<ResearchPoints>12.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\government_county_icon_64</Icon>
@@ -46701,7 +46725,7 @@
 			<TechStatus status="Active">ypVillagePopCapIncrease</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">ypVillage</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
@@ -47076,7 +47100,8 @@
 	<Tech name="ypVillagePopCapIncrease3" type="Normal">
 		<DBID>4090</DBID>
 		<DisplayNameID>62076</DisplayNameID>
-		<Cost resourcetype="Wood">200.0000</Cost>
+		<Cost resourcetype="Wood">250.0000</Cost>
+		<Cost resourcetype="Gold">250.0000</Cost>
 		<ResearchPoints>12.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\government_prefecture_icon_64</Icon>
@@ -47087,7 +47112,7 @@
 			<TechStatus status="Active">ypVillagePopCapIncrease2</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">ypVillage</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
@@ -47894,7 +47919,8 @@
 	<Tech name="ypVillagePopCapIncrease" type="Normal">
 		<DBID>4281</DBID>
 		<DisplayNameID>62991</DisplayNameID>
-		<Cost resourcetype="Wood">200.0000</Cost>
+		<Cost resourcetype="Wood">250.0000</Cost>
+		<Cost resourcetype="Gold">250.0000</Cost>
 		<ResearchPoints>12.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\government_town_icon_64</Icon>
@@ -47902,7 +47928,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UniqueTech</Flag>
 		<Effects>
-			<Effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">ypVillage</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
@@ -55323,7 +55349,8 @@
 	<Tech name="ypVillagePopCapIncrease4" type="Normal">
 		<DBID>4821</DBID>
 		<DisplayNameID>66131</DisplayNameID>
-		<Cost resourcetype="Wood">200.0000</Cost>
+		<Cost resourcetype="Wood">250.0000</Cost>
+		<Cost resourcetype="Gold">250.0000</Cost>
 		<ResearchPoints>12.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\government_provincial_icon_64</Icon>
@@ -55334,7 +55361,7 @@
 			<TechStatus status="Active">ypVillagePopCapIncrease3</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">ypVillage</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
@@ -58358,7 +58385,7 @@
 			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">ypShrineJapanese</Target>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
+			<Effect type="Data" amount="30.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">ypVillage</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
