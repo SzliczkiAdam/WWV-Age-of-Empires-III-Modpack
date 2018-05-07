@@ -37975,7 +37975,7 @@
 	<Tech name="BigAztecScoutingParty" type="Normal">
 		<DBID>3311</DBID>
 		<DisplayNameID>46166</DisplayNameID>
-		<Cost resourcetype="Food">450.0000</Cost>
+		<Cost resourcetype="Food">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -37988,7 +37988,10 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -37996,8 +37999,8 @@
 	<Tech name="BigAztecRaidingParty" type="Normal">
 		<DBID>3312</DBID>
 		<DisplayNameID>46168</DisplayNameID>
-		<Cost resourcetype="Food">450.0000</Cost>
-		<Cost resourcetype="Gold">450.0000</Cost>
+		<Cost resourcetype="Food">750.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -38011,7 +38014,13 @@
 			<TechStatus status="Active">BigAztecScoutingParty</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
+			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -38019,9 +38028,9 @@
 	<Tech name="BigAztecWarParty" type="Normal">
 		<DBID>3313</DBID>
 		<DisplayNameID>46170</DisplayNameID>
-		<Cost resourcetype="Food">450.0000</Cost>
-		<Cost resourcetype="Wood">450.0000</Cost>
-		<Cost resourcetype="Gold">450.0000</Cost>
+		<Cost resourcetype="Food">700.0000</Cost>
+		<Cost resourcetype="Wood">700.0000</Cost>
+		<Cost resourcetype="Gold">400.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -38035,7 +38044,16 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpArrowKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="xpAztecWarchief" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
