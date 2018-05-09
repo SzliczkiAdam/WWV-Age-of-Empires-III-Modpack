@@ -337,9 +337,10 @@
 		<sound filename="XPack\Ambient\Saloon\Exist.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="PetardExplosion" volume="0.8500" maxnum="4" distance="1.0000">
-		<sound filename="XPack\PetardExplosion1.wav" volume="1.0000"/>
+	<!--	<sound filename="XPack\PetardExplosion1.wav" volume="1.0000"/>
 		<sound filename="XPack\PetardExplosion2.wav" volume="1.0000"/>
-		<sound filename="XPack\PetardExplosion3.wav" volume="1.0000"/>
+		<sound filename="XPack\PetardExplosion3.wav" volume="1.0000"/>-->
+		<sound filename="XPack\PetardExplosions.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="IroquoisAennaSelect" volume="0.5000" maxnum="4" distance="1.0000">
 		<sound filename="XPack\IroquoisAennaSelect1.wav" volume="0.9500"/>
