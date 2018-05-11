@@ -4647,7 +4647,7 @@
 		<sound filename="LazerBearBirth.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="LazerBearShoot" volume="0.7000" maxnum="10" distance="1.0000">
-		<sound filename="LazerBearShoot.wav" volume="1.0000"/>
+		<sound filename="LazerBearShoot2.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="FlyingTapirBirth" volume="0.8500" maxnum="10" distance="1.0000">
 		<sound filename="FlyingTapirBirth.wav" volume="1.0000"/>
