@@ -29883,8 +29883,8 @@
 	<Tech name="TribalIroquoisChief3" type="Normal">
 		<DBID>2789</DBID>
 		<DisplayNameID>43731</DisplayNameID>
-		<Cost resourcetype="Food">4000.0000</Cost>
-		<Cost resourcetype="Gold">3000.0000</Cost>
+		<Cost resourcetype="Food">1200.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -29907,8 +29907,8 @@
 	<Tech name="TribalIroquoisChief4" type="Normal">
 		<DBID>2790</DBID>
 		<DisplayNameID>43733</DisplayNameID>
-		<Cost resourcetype="Food">4000.0000</Cost>
-		<Cost resourcetype="Gold">3000.0000</Cost>
+		<Cost resourcetype="Food">2000.0000</Cost>
+		<Cost resourcetype="Gold">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -29930,8 +29930,8 @@
 	<Tech name="TribalIroquoisChief5" type="Normal">
 		<DBID>2791</DBID>
 		<DisplayNameID>43735</DisplayNameID>
-		<Cost resourcetype="Food">8000.0000</Cost>
-		<Cost resourcetype="Gold">6000.0000</Cost>
+		<Cost resourcetype="Food">4000.0000</Cost>
+		<Cost resourcetype="Gold">4000.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
