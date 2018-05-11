@@ -2567,4 +2567,45 @@
 	<soundset name="UI_StrategyWarning" volume="1.0000" maxnum="1" distance="1.0000">
 		<sound filename="xpack\ui\StrategyWarning.wav" volume="1.0000"/>
 	</soundset>
+	<soundset name="SvabTelepesSelect" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="xpack\SvabTelepes7.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes8.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes9.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes10.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SvabTelepesMaleAcknowledge" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="xpack\SvabTelepes11.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes12.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes13.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes14.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes15.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes16.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes17.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SvabTelepesMaleAttack"  volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="xpack\SvabTelepes18.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes19.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes20.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes21.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes22.wav" volume="1.0000"/>
+		<sound filename="xpack\SvabTelepes23.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SvabTelepesMaleBuild" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="xpack\SvabTelepes2.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SvabTelepesMaleGatherMeat" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="xpack\SvabTelepes5.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SvabTelepesMaleGatherWood" volume="1.0000" maxnum="1" distance="1.0000">
+		<sound filename="xpack\SvabTelepes1.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SvabTelepesMaleGatherCoin" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="xpack\SvabTelepes4.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SvabTelepesMaleFarm" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="xpack\SvabTelepes3.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SvabTelepesMaleGatherFruit" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="xpack\SvabTelepes6.wav" volume="1.0000"/>
+	</soundset>
 </soundsetdef>
