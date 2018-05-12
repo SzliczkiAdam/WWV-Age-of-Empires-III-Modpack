@@ -36936,7 +36936,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>NativeDance</Flag>
 		<Effects>
-			<Effect type="Data" amount="2000.00" subtype="Resource" resource="XP" relativity="Absolute">
+			<Effect type="Data" amount="8000.00" subtype="Resource" resource="XP" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -36964,6 +36964,7 @@
 		<DBID>3254</DBID>
 		<DisplayNameID>45721</DisplayNameID>
 		<Cost resourcetype="Gold">750.0000</Cost>
+		<Cost resourcetype="Food">400.0000</Cost>		
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -36977,7 +36978,7 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpTomahawk" relativity="Absolute">
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpTomahawk" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpMusketWarrior" relativity="Absolute">
@@ -36992,6 +36993,8 @@
 		<DBID>3255</DBID>
 		<DisplayNameID>45723</DisplayNameID>
 		<Cost resourcetype="Gold">750.0000</Cost>
+		<Cost resourcetype="Food">400.0000</Cost>
+		<Cost resourcetype="Wood">400.0000</Cost>				
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -37014,7 +37017,7 @@
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpHorseman" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="xpLightCannon" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="xpLightCannon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -37090,8 +37093,9 @@
 	<Tech name="BigSiouxDogSoldiers" type="Normal">
 		<DBID>3265</DBID>
 		<DisplayNameID>45899</DisplayNameID>
-		<Cost resourcetype="Food">750.0000</Cost>
-		<Cost resourcetype="Gold">750.0000</Cost>		
+		<Cost resourcetype="Food">650.0000</Cost>
+		<Cost resourcetype="Gold">650.0000</Cost>
+		<Cost resourcetype="Wood">650.0000</Cost>				
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance4</Icon>
@@ -37104,7 +37108,7 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpDogSoldier" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="xpDogSoldier" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPCrazyHorse" relativity="Absolute">
@@ -37113,7 +37117,13 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPNativeChayton" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpSPCColonialMilitia" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpSPCColonialMilitia" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpWarRifle" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpWarClub" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -37982,8 +37992,7 @@
 	<Tech name="BigFarmCinteotl" type="Normal">
 		<DBID>3309</DBID>
 		<DisplayNameID>46162</DisplayNameID>
-		<Cost resourcetype="Food">600.0000</Cost>
-		<Cost resourcetype="Wood">500.0000</Cost>
+		<Cost resourcetype="Food">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance4</Icon>
@@ -37996,7 +38005,7 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="-1.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -38004,7 +38013,9 @@
 	<Tech name="BigAztecScoutingParty" type="Normal">
 		<DBID>3311</DBID>
 		<DisplayNameID>46166</DisplayNameID>
-		<Cost resourcetype="Food">750.0000</Cost>
+		<Cost resourcetype="Food">650.0000</Cost>
+		<Cost resourcetype="Gold">650.0000</Cost>
+		<Cost resourcetype="Wood">650.0000</Cost>				
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -38020,7 +38031,13 @@
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpArrowKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpCoyoteMan" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -38029,7 +38046,8 @@
 		<DBID>3312</DBID>
 		<DisplayNameID>46168</DisplayNameID>
 		<Cost resourcetype="Food">750.0000</Cost>
-		<Cost resourcetype="Gold">300.0000</Cost>
+		<Cost resourcetype="Wood">750.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>		
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -38043,13 +38061,16 @@
 			<TechStatus status="Active">BigAztecScoutingParty</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpCoyoteMan" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -38057,9 +38078,9 @@
 	<Tech name="BigAztecWarParty" type="Normal">
 		<DBID>3313</DBID>
 		<DisplayNameID>46170</DisplayNameID>
-		<Cost resourcetype="Food">700.0000</Cost>
-		<Cost resourcetype="Wood">700.0000</Cost>
-		<Cost resourcetype="Gold">400.0000</Cost>
+		<Cost resourcetype="Food">850.0000</Cost>
+		<Cost resourcetype="Wood">850.0000</Cost>
+		<Cost resourcetype="Gold">850.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -38073,16 +38094,19 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
+			<Effect type="Data" amount="25.00" subtype="FreeHomeCityUnit" unittype="xpJaguarKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
+			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="xpEagleKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpArrowKnight" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpArrowKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="xpAztecWarchief" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="30.00" subtype="FreeHomeCityUnit" unittype="xpCoyoteMan" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -38103,7 +38127,7 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="-1.00" subtype="FreeHomeCityUnit" unittype="xpPumaMan" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpPumaMan" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -38111,8 +38135,7 @@
 	<Tech name="BigNoblesHutWarSong" type="Normal">
 		<DBID>3315</DBID>
 		<DisplayNameID>46174</DisplayNameID>
-		<Cost resourcetype="Food">500.0000</Cost>
-		<Cost resourcetype="Wood">400.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
@@ -38125,7 +38148,7 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="-1.00" subtype="FreeHomeCityUnit" unittype="xpArrowKnight" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="xpArrowKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -38133,7 +38156,7 @@
 	<Tech name="BigPlantationTezcatlipoca" type="Normal">
 		<DBID>3317</DBID>
 		<DisplayNameID>46178</DisplayNameID>
-		<Cost resourcetype="Gold">900.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
@@ -38146,7 +38169,7 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="-0.50" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="xpSkullKnight" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -38176,7 +38199,7 @@
 	<Tech name="BigHouseCoatlicue" type="Normal">
 		<DBID>3320</DBID>
 		<DisplayNameID>46184</DisplayNameID>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
@@ -38189,7 +38212,7 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="-1.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
+			<Effect type="Data" amount="30.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
