@@ -15536,6 +15536,58 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="RGGardener" type="Normal">
+		<DBID>351</DBID>
+		<DisplayNameID>23956</DisplayNameID>
+		<Cost resourcetype="Wood">1000.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
+		<RolloverTextID>23955</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Industrialize</TechStatus>
+			<TechStatus status="Active">VeteranHussars</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Hussar</Target>
+			</Effect>
+			<Effect type="TechStatus" status="active">GuardHussars</Effect>
+			<Effect type="SetName" proto="Hussar" culture="none" newName="32326"/>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Hussar</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ImperialGardener" type="Normal">
+		<DBID>1296</DBID>
+		<DisplayNameID>30937</DisplayNameID>
+		<Cost resourcetype="Wood">1500.0000</Cost>
+		<Cost resourcetype="Gold">1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_cavalry\imperial_cavalry</Icon>
+		<RolloverTextID>30936</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">RGGardener</TechStatus>
+			<TechStatus status="Active">GuardHussars</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Hussar</Target>
+			</Effect>
+			<Effect type="SetName" proto="Hussar" culture="none" newName="30939"/>
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Hussar</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="ImperialJinetes" type="Normal">
 		<DBID>1298</DBID>
 		<DisplayNameID>30945</DisplayNameID>
