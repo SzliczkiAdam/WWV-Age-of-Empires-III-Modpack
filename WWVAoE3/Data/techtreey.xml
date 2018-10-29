@@ -1876,7 +1876,6 @@
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">CserjeCsinaloCsabaCserjeCsinalasa</Effect>
 			<Effect type="TechStatus" status="active">AAStandardStartingTechs</Effect>
-			<Effect type="TechStatus" status="obtainable">RGGardener</Effect>
 			<Effect type="TechStatus" status="obtainable">ChurchTopcuCorps</Effect>
 			<Effect type="TechStatus" status="obtainable">ChurchTufanciCorps</Effect>
 			<Effect type="TechStatus" status="obtainable">ChurchMilletSystem</Effect>
@@ -1885,14 +1884,12 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Sheep</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">VeteranHussars</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialGardener</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialJanissaries</Effect>
 			<Effect type="TechStatus" status="obtainable">GuardCavalryArchers</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialCavalryArchers</Effect>
@@ -4502,7 +4499,6 @@
 			<Effect type="TechStatus" status="active">VeteranCavalryArchersShadow</Effect>
 			<Effect type="TechStatus" status="active">GuardCavalryArchers</Effect>
 			<Effect type="TechStatus" status="active">GuardJanissaries</Effect>
-			<Effect type="TechStatus" status="active">RGGardener</Effect>
 			<Effect type="TechStatus" status="active">WarriorSocietyTupi</Effect>
 			<Effect type="TechStatus" status="active">WarriorSocietySeminoles</Effect>
 			<Effect type="TechStatus" status="active">WarriorSocietyNootka</Effect>
@@ -4865,7 +4861,6 @@
 			<Effect type="TechStatus" status="active">ImperialAbusGun</Effect>
 			<Effect type="TechStatus" status="active">ImperialCavalryArchers</Effect>
 			<Effect type="TechStatus" status="active">ImperialJanissaries</Effect>
-			<Effect type="TechStatus" status="active">ImperialGardener</Effect>
 			<Effect type="TechStatus" status="active">ImperialBaratcu</Effect>
 			<Effect type="TechStatus" status="active">ImperialCulverin</Effect>
 			<Effect type="TechStatus" status="active">ImperialBombard</Effect>
@@ -12845,32 +12840,6 @@
 			<Effect type="SetName" proto="Crossbowman" culture="none" newName="70505"/>
 		</Effects>
 	</Tech>
-	<Tech name="RGGardener" type="Normal">
-		<DBID>351</DBID>
-		<DisplayNameID>23956</DisplayNameID>
-		<Cost resourcetype="Wood">1000.0000</Cost>
-		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
-		<RolloverTextID>23955</RolloverTextID>
-		<Flag>UpgradeTech</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Prereqs>
-			<TechStatus status="Active">Industrialize</TechStatus>
-			<TechStatus status="Active">VeteranHussars</TechStatus>
-		</Prereqs>
-		<Effects>
-			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Hussar</Target>
-			</Effect>
-			<Effect type="TechStatus" status="active">GuardHussars</Effect>
-			<Effect type="SetName" proto="Hussar" culture="none" newName="32326"/>
-			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Hussar</Target>
-			</Effect>
-		</Effects>
-	</Tech>
 	<Tech name="ChurchMilletSystem" type="Normal">
 		<DBID>352</DBID>
 		<DisplayNameID>23959</DisplayNameID>
@@ -15564,32 +15533,6 @@
 			<Effect type="SetName" proto="Ruyter" culture="none" newName="30935"/>
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Ruyter</Target>
-			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="ImperialGardener" type="Normal">
-		<DBID>1296</DBID>
-		<DisplayNameID>30937</DisplayNameID>
-		<Cost resourcetype="Wood">1500.0000</Cost>
-		<Cost resourcetype="Gold">1500.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\imperial_cavalry\imperial_cavalry</Icon>
-		<RolloverTextID>30936</RolloverTextID>
-		<Flag>UpgradeTech</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Prereqs>
-			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">RGGardener</TechStatus>
-			<TechStatus status="Active">GuardHussars</TechStatus>
-		</Prereqs>
-		<Effects>
-			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Hussar</Target>
-			</Effect>
-			<Effect type="SetName" proto="Hussar" culture="none" newName="30939"/>
-			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Hussar</Target>
 			</Effect>
 		</Effects>
 	</Tech>
