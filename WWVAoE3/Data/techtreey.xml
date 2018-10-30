@@ -7606,10 +7606,10 @@
 			<Effect type="TechStatus" status="obtainable">ypFakeIndustrialAge</Effect>
 			<Effect type="Data" amount="100.00" subtype="Cost" resource="Trade" relativity="Absolute">
 				<Target type="ProtoUnit">Culverin</Target>
-			</Effect>
+			</Effect>	
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="ProtoUnit">Culverin</Target>
-			</Effect>
+			</Effect>					
 			<Effect type="Data" amount="100.00" subtype="Cost" resource="Trade" relativity="Absolute">
 				<Target type="ProtoUnit">Falconet</Target>
 			</Effect>
@@ -8275,7 +8275,10 @@
 				<Target type="ProtoUnit">ypYamabushi</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">YPBerryWagon1</Target>
+			<Target type="ProtoUnit">YPBerryWagon1</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">YPGroveWagon</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -9010,6 +9013,12 @@
 		<Effects>
 		<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypSPCChen</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+			<Target type="ProtoUnit">YPBerryWagon1</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">YPGroveWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypSettlerAsian</Target>
@@ -9885,6 +9894,12 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypSPCPravar</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+			<Target type="ProtoUnit">YPBerryWagon1</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">YPGroveWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypSowar</Target>
