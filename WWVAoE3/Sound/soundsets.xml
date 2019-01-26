@@ -4681,33 +4681,4 @@
 		<sound filename="CrusaderAttack2.wav" volume="0.9500"/>
 		<sound filename="CrusaderAttack3.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="NiggerSelect" volume="1.0000" maxnum="4" distance="1.0000">
-		<sound filename="NiggerSelect1.wav" volume="1.0000"/>
-		<sound filename="NiggerSelect2.wav" volume="1.0000"/>
-	</soundset>
-	<soundset name="NiggerGatherCoin" volume="1.0000" maxnum="4" distance="1.0000">
-		<sound filename="NiggerCoin.wav" volume="1.0000"/>
-	</soundset>
-	<soundset name="NiggerGatherWood" volume="1.0000" maxnum="4" distance="1.0000">
-		<sound filename="NiggerWood.wav" volume="1.0000"/>
-	</soundset>
-	<soundset name="NiggerGatherFruit" volume="1.0000" maxnum="4" distance="1.0000">
-		<sound filename="NiggerBerry.wav" volume="1.0000"/>
-	</soundset>	
-	<soundset name="NiggerGatherMeat" volume="1.0000" maxnum="4" distance="1.0000">
-		<sound filename="NiggerHunt.wav" volume="1.0000"/>
-	</soundset>		
-	<soundset name="NiggerAttack" volume="1.0000" maxnum="4" distance="1.0000">
-		<sound filename="NiggerAttack1.wav" volume="1.0000"/>
-		<sound filename="NiggerAttack2.wav" volume="1.0000"/>
-	</soundset>	
-	<soundset name="NiggerAcknowledge" volume="1.0000" maxnum="4" distance="1.0000">
-		<sound filename="NiggerMove1.wav" volume="1.0000"/>
-		<sound filename="NiggerMove2.wav" volume="1.0000"/>
-		<sound filename="NiggerMove2.wav" volume="1.0000"/>
-	</soundset>	
-	<soundset name="NiggerGatherFarm" volume="1.0000" maxnum="4" distance="1.0000">
-		<sound filename="NiggerFarm.wav" volume="1.0000"/>
-	</soundset>	
-				
 </soundsetdef>
