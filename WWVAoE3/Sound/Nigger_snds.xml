@@ -32,7 +32,7 @@
 					<soundset name="NiggerGatherCoin"/>
 				</choice>
 				<choice name="AbstractFarm">
-					<soundset name="NiggerFarm"/>
+					<soundset name="NiggerGatherFarm"/>
 				</choice>
 				<choice name="AbstractResourceCrate">
 					<soundset name="NiggerAcknowledge"/>
