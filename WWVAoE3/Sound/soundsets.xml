@@ -4683,7 +4683,7 @@
 	</soundset>
 	<soundset name="NiggerSelect" volume="1.0000" maxnum="4" distance="1.0000">
 		<sound filename="NiggerSelect1.wav" volume="1.0000"/>
-		<sound filename="NiggerSelect2.wav" volume="0.0000"/>
+		<sound filename="NiggerSelect2.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="NiggerGatherCoin" volume="1.0000" maxnum="4" distance="1.0000">
 		<sound filename="NiggerCoin.wav" volume="0.9000"/>
