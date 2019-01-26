@@ -4709,5 +4709,9 @@
 	<soundset name="NiggerGatherFarm" volume="1.0000" maxnum="4" distance="1.0000">
 		<sound filename="NiggerFarm.wav" volume="1.0000"/>
 	</soundset>	
-				
+	<soundset name="NiggerGatherFarm" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="NiggerMove1.wav" volume="1.0000"/>
+		<sound filename="NiggerMove2.wav" volume="1.0000"/>
+		<sound filename="NiggerMove3.wav" volume="1.0000"/>	
+	</soundset>				
 </soundsetdef>
