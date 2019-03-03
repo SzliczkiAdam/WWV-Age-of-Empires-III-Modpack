@@ -4708,5 +4708,37 @@
 	</soundset>	
 	<soundset name="NiggerGatherFarm" volume="1.0000" maxnum="4" distance="1.0000">
 		<sound filename="NiggerFarm.wav" volume="1.0000"/>
-	</soundset>			
+	</soundset>
+	<soundset name="KaiserSelect" volume="1.0000" maxnum="2" distance="1.0000">
+		<sound filename="KaiserSelect-1.wav" volume="1.0000"/>
+		<sound filename="KaiserSelect-2.wav" volume="1.0000"/>
+		<sound filename="KaiserSelect-3.wav" volume="1.0000"/>
+		<sound filename="KaiserSelect-4.wav" volume="1.0000"/>
+		<sound filename="KaiserSelect-5.wav" volume="1.0000"/>
+		<sound filename="KaiserSelect-6.wav" volume="1.0000"/>
+		<sound filename="KaiserSelect-7.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="KaiserAcknowledge" volume="1.0000" maxnum="2" distance="1.0000">
+		<sound filename="KaiserAcknowledge-1.wav" volume="1.0000"/>
+		<sound filename="KaiserAcknowledge-2.wav" volume="1.1000"/>
+		<sound filename="KaiserAcknowledge-3.wav" volume="1.0000"/>
+		<sound filename="KaiserAcknowledge-4.wav" volume="1.0000"/>
+		<sound filename="KaiserAcknowledge-5.wav" volume="1.0000"/>
+		<sound filename="KaiserAcknowledge-6.wav" volume="1.0000"/>
+		<sound filename="KaiserAcknowledge-7.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="KaiserAttack" volume="1.0000" maxnum="2" distance="1.0000">
+		<sound filename="KaiserAttack-1.wav" volume="1.0000"/>
+		<sound filename="KaiserAttack-2.wav" volume="1.0000"/>
+		<sound filename="KaiserAttack-3.wav" volume="1.0000"/>
+		<sound filename="KaiserAttack-4.wav" volume="1.0000"/>
+		<sound filename="KaiserAttack-5.wav" volume="1.0000"/>
+		<sound filename="KaiserAttack-6.wav" volume="1.0000"/>
+		<sound filename="KaiserAttack-7.wav" volume="1.0000"/>
+		<sound filename="KaiserAttack-8.wav" volume="1.0000"/>
+		<sound filename="KaiserAttack-9.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="KaiserRevive" volume="1.0000" maxnum="1" distance="1.0000">
+		<sound filename="KaiserAttack-5.wav" volume="1.0000"/>
+	</soundset>
 </soundsetdef>
