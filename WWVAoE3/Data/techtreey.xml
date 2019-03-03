@@ -17253,7 +17253,10 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Rodelero" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age2</Effect>
@@ -17273,7 +17276,16 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="SetAge">Age4</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="CrateofCoinLarge" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofCoinLarge" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofFoodLarge" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWoodLarge" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17291,11 +17303,14 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
+			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age4</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Cannon" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Cannon" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Mortar" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17313,7 +17328,10 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Falconet" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Falconet" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Culverin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -17333,7 +17351,13 @@
 		<Flag>AgeUpgrade</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="CrateofCoinLarge" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofCoinLarge" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWoodLarge" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17493,11 +17517,14 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Effects>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="NatMantlet" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="NatMantlet" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="NativeScout" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="NatTomahawk" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCOldKanyenke" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17518,6 +17545,9 @@
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="SetAge">Age3</Effect>
 		</Effects>
 	</Tech>
@@ -17534,10 +17564,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="MercBarbaryCorsair" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCLizzieFlagship" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age2</Effect>
@@ -17577,7 +17607,7 @@
 			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17596,7 +17626,10 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Lancer" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Lancer" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="xpHorseArtillery" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17614,7 +17647,10 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Spahi" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Spahi" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Janissary" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -17651,7 +17687,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Rodelero" relativity="Absolute">
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Rodelero" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -18452,10 +18491,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Caravel" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Caravel" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Galleon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -18475,6 +18514,9 @@
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
 		</Effects>
+		<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Coveredwagon" relativity="Absolute">
+				<Target type="Player"/>
+		</Effect>
 	</Tech>
 	<Tech name="ColonializeSPCAct3" type="Normal">
 		<DBID>1883</DBID>
@@ -18720,7 +18762,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Skirmisher" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Skirmisher" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="MercFusilier" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20100,7 +20145,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Longbowman" relativity="Absolute">
+			<Effect type="Data" amount="11.00" subtype="FreeHomeCityUnit" unittype="Longbowman" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20119,10 +20164,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Grenadier" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Nigger" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20143,6 +20188,9 @@
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="SetAge">Age3</Effect>
 		</Effects>
 	</Tech>
@@ -20160,7 +20208,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20179,7 +20227,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Cuirassier" relativity="Absolute">
+			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Cuirassier" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20200,6 +20248,9 @@
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="SetAge">Age3</Effect>
 		</Effects>
 	</Tech>
@@ -20217,7 +20268,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20235,7 +20286,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="Strelet" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Strelet" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20253,7 +20307,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Oprichnik" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Oprichnik" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -20272,7 +20326,10 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
+			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="CavalryAcher" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -20291,7 +20348,10 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="SvabTelepes" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -20310,7 +20370,10 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Dopplesoldner" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Dopplesoldner" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age2</Effect>
@@ -20328,9 +20391,16 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofFoodLarge" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Surgeon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofCoin" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+
 			<Effect type="SetAge">Age1</Effect>
 		</Effects>
 	</Tech>
@@ -20347,7 +20417,10 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="SPCAlain2" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -20367,10 +20440,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="SvabTelepes" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="SettlerWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20563,7 +20636,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Cacadore" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Cacadore" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20581,7 +20654,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="OrganGun" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="OrganGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -20601,10 +20674,13 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Dragoon" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Dragoon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="WWVWagonAll" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20623,6 +20699,9 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="cacadore" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -20772,7 +20851,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="Ruyter" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Ruyter" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20791,7 +20870,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
+			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="CavalryArcher" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20813,6 +20892,9 @@
 			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="AbusGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Janissary" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianMusketeerDutch" type="Normal">
@@ -20831,6 +20913,9 @@
 			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Skirmisher" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MechFusilier" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="SetAge">Age3</Effect>
 		</Effects>
 	</Tech>
@@ -20847,11 +20932,11 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
+			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age4</Effect>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Rocket" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Rocket" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20869,11 +20954,11 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Janissary" relativity="Absolute">
+			<Effect type="Data" amount="24.00" subtype="FreeHomeCityUnit" unittype="Janissary" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age4</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="GreatBombard" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="GreatBombard" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20892,10 +20977,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Ruyter" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Ruyter" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -20913,7 +20998,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Halberdier" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Halberdier" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age2</Effect>
@@ -26928,11 +27013,14 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Skirmisher" relativity="Absolute">
+			<Effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="Skirmisher" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age4</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Cannon" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Cannon" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Mortar" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
