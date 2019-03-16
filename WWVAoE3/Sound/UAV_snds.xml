@@ -17,7 +17,7 @@
 		<soundtype name="Acknowledge">
 			<targetlogic>
 				<choice name="default">
-					<soundset name="UAVMove"/>
+					<soundset name="UAVAcknowledge"/>
 				</choice>
 				<choice name="enemy">
 					<soundset name="UAVAttack"/>

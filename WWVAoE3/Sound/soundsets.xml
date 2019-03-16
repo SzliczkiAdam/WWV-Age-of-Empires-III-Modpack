@@ -4741,4 +4741,21 @@
 	<soundset name="KaiserRevive" volume="1.0000" maxnum="1" distance="1.0000">
 		<sound filename="KaiserAcknowledge-7" volume="1.0000"/>
 	</soundset>
+	<soundset name="UAVSelect" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="UAVSelect1.wav" volume="1.0000"/>
+		<sound filename="UAVSelect2.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="UAVAcknowledge" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="UAVMove1.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="UAVAttack" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="UAVAttack1.wav" volume="1.0000"/>
+		<sound filename="UAVAttack2.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="UAVBirth" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="UAVBirth1.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="UAVDeath" volume="1.0000" maxnum="4" distance="1.0000">
+		<sound filename="UAVDeath1.wav" volume="1.0000"/>
+	</soundset>
 </soundsetdef>
