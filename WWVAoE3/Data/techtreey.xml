@@ -20440,7 +20440,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="SvabTelepes" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="SPCXPVFSoldier" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="SettlerWagon" relativity="Absolute">
