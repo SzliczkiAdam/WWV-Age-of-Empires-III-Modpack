@@ -4970,7 +4970,7 @@
 		<Effects>
 			<Effect type="Data" amount="0.00" subtype="MaximumContained" relativity="Assign">
 				<Target type="ProtoUnit">SPCLizzieFlagship</Target>
-			</Effect>
+			</Effect>			
 		</Effects>
 	</Tech>
 	<Tech name="SPCBonusIroquois" type="Normal">
@@ -17570,6 +17570,12 @@
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCBuccaneer</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCBucCaptain</Target>
+			</Effect>
 			<Effect type="SetAge">Age2</Effect>
 		</Effects>
 	</Tech>
@@ -26173,6 +26179,12 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercBarbaryCorsair" relativity="Absolute">
 				<Target type="ProtoUnit">Barracks</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCBuccaneer</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCBucCaptain</Target>
 			</Effect>
 		</Effects>
 	</Tech>
