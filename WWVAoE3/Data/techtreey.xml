@@ -26004,6 +26004,15 @@
 			<Effect type="Data" action="Gather" amount="1.35" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
 				<Target type="ProtoUnit">SettlerWagon</Target>
 			</Effect>
+			<Effect type="Data" action="Gather" amount="1.35" subtype="WorkRate" unittype="AutoGatherCoin" relativity="BasePercent">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="1.35" subtype="WorkRate" unittype="AutoGatherWood" relativity="BasePercent">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="1.35" subtype="WorkRate" unittype="AutoGatherFood" relativity="BasePercent">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="UniqueSPCPatriots" type="Normal">
