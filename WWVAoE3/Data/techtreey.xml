@@ -78,6 +78,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
+			<Effect type="TechStatus" status="obtainable">I_IpariForradalom</Effect>
 			<Effect type="TechStatus" status="active">AAStandardStartingTechs</Effect>
 			<Effect type="TechStatus" status="obtainable">RGVoltigeur</Effect>
 			<Effect type="TechStatus" status="obtainable">RGGendarmes</Effect>
@@ -440,7 +441,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
 			</Effect>
-						<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Assign">
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">SPCXPVFSoldier</Target>
 			</Effect>	
 			<Effect type="Data" amount="1" subtype="PopulationCount" relativity="Assign">
@@ -779,6 +780,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Hussar</Target>
 			</Effect>
+			<Effect type="TechStatus" status="obtainable">I_IpariForradalom</Effect>
 			<Effect type="TechStatus" status="obtainable">RGRedcoats</Effect>
 			<Effect type="TechStatus" status="active">AAStandardStartingTechs</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranHussars</Effect>
@@ -25939,6 +25941,18 @@
 		<Effects>
 			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Miner</Target>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="2.35" subtype="WorkRate" unittype="AutoGatherCoin" relativity="BasePercent">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="2.35" subtype="WorkRate" unittype="AutoGatherFood" relativity="BasePercent">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="2.35" subtype="WorkRate" unittype="AutoGatherWood" relativity="BasePercent">
+				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">SPCWeaponsCache</Target>
@@ -61462,6 +61476,36 @@
 			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">MercBlackRider</Target>
 			</Effect>						
+		</Effects>
+	</Tech>
+	<Tech name="I_IpariForradalom" type="Normal">
+		<DBID>5272</DBID>
+		<DisplayNameID>90017</DisplayNameID>
+		<Cost resourcetype="Wood">500.0000</Cost>
+		<Cost resourcetype="Gold">500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_guild_artisans\hc_guild_artisans</Icon>
+		<RolloverTextID>90018</RolloverTextID>
+		<Effects>
+			<Effect type="Data" amount="20.00" subtype="GathererLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Mill</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="GathererLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Plantation</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuilderLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Mill</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuilderLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Plantation</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Nigger" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 
