@@ -61479,7 +61479,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="I_IpariForradalom" type="Normal">
-		<DBID>5272</DBID>
+		<DBID>5274</DBID>
 		<DisplayNameID>90017</DisplayNameID>
 		<Cost resourcetype="Wood">500.0000</Cost>
 		<Cost resourcetype="Gold">500.0000</Cost>
