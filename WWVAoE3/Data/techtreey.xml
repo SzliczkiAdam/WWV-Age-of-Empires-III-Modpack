@@ -61488,19 +61488,25 @@
 		<Icon>ui\techs\hc_guild_artisans\hc_guild_artisans</Icon>
 		<RolloverTextID>90018</RolloverTextID>
 		<Effects>
-			<Effect type="Data" amount="20.00" subtype="GathererLimit" relativity="Absolute">
+			<Effect type="Data" amount="0.30" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">TradingPost</Target>
+			</Effect>
+			<Effect type="Data" amount="0.30" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">ypNuggetTradingPost</Target>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="BuilderLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="GathererLimit" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="BuilderLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Plantation</Target>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuilderLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Mill</Target>
+			<Effect type="Data" amount="0.20" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">Nigger</Target>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuilderLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Plantation</Target>
+			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">Arsenal</Target>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Nigger" relativity="Absolute">
+			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
