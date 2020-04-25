@@ -1356,7 +1356,10 @@
 		<sound filename="ypack\IndianSowarMove2.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianSowarMove3.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="IndianThuggeeAttack" volume="0.7000" maxnum="13" distance="1.0000">
+	<soundset name="IndianThuggeeDeath" volume="0.9000" maxnum="13" distance="1.0000">
+		<sound filename="ypack\IndianThuggeeDeath1.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="IndianThuggeeAttack" volume="0.9000" maxnum="21" distance="1.0000">
 		<sound filename="ypack\IndianThuggeeAttack1.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeAttack2.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeAttack3.wav" volume="1.0000"/>
@@ -1369,8 +1372,14 @@
 		<sound filename="ypack\IndianThuggeeAttack10.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeAttack11.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeAttack12.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeAttack13.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeAttack14.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeAttack15.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeAttack16.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeAttack17.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeAttack18.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="IndianThuggeeSelect" volume="0.7000" maxnum="10" distance="1.0000">
+	<soundset name="IndianThuggeeSelect" volume="0.9000" maxnum="18" distance="1.0000">
 		<sound filename="ypack\IndianThuggeeSelect1.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeSelect2.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeSelect3.wav" volume="1.0000"/>
@@ -1380,8 +1389,15 @@
 		<sound filename="ypack\IndianThuggeeSelect7.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeSelect8.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeSelect9.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeSelect10.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeSelect11.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeSelect12.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeSelect13.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeSelect14.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeSelect15.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeSelect16.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="IndianThuggeeAcknowledge" volume="0.7000" maxnum="13" distance="1.0000">
+	<soundset name="IndianThuggeeAcknowledge" volume="0.9000" maxnum="18" distance="1.0000">
 		<sound filename="ypack\IndianThuggeeMove1.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeMove2.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeMove3.wav" volume="1.0000"/>
@@ -1394,6 +1410,10 @@
 		<sound filename="ypack\IndianThuggeeMove10.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeMove11.wav" volume="1.0000"/>
 		<sound filename="ypack\IndianThuggeeMove12.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeMove13.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeMove14.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeMove15.wav" volume="1.0000"/>
+		<sound filename="ypack\IndianThuggeeMove16.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="IndianTigerClawAttack" volume="0.7000" maxnum="4" distance="1.0000">
 		<sound filename="ypack\IndianTigerClawAttack1.wav" volume="1.0000"/>

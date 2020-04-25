@@ -9,7 +9,7 @@
 			<soundset name="GenericMaleGrunt"/>
 		</soundtype>
 		<soundtype name="Death">
-			<soundset name="GenericMaleDeath"/>
+			<soundset name="IndianThuggeeDeath"/>
 		</soundtype>
 		<soundtype name="Creation">
 			<soundset name="MilitaryBirth"/>
