@@ -4099,7 +4099,8 @@
 		<sound filename="ambient\Birds\TurkeyVulture2.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="Win" volume="1.0000" maxnum="1" distance="1.0000">
-		<sound filename="ui\Win.wav" volume="1.0000"/>
+		<sound filename="ui\Win1.wav" volume="1.0000"/>
+		<sound filename="ui\Win2.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="BattlecryMedium" volume="0.4500" maxnum="1" distance="1.0000">
 		<sound filename="BattlecryMedium.wav" volume="1.0000"/>
@@ -4473,7 +4474,10 @@
 		<sound filename="LlamaDeath.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="Lose" volume="1.0000" maxnum="1" distance="1.0000">
-		<sound filename="ui\Lose.wav" volume="1.0000"/>
+		<sound filename="ui\Lose1.wav" volume="1.0000"/>
+		<sound filename="ui\Lose2.wav" volume="1.0000"/>
+		<sound filename="ui\Lose3.wav" volume="1.0000"/>
+		<sound filename="ui\Lose4.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="PrivateerAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
 		<sound filename="PrivateerMove1.wav" volume="0.9000"/>

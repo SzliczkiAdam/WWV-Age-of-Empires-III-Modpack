@@ -2147,6 +2147,9 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
+			<Effect type="Data" amount="50.00" subtype="Cost" resource="Food" relativity="Assign">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">CserjeCsinaloCsabaCserjeCsinalasa</Effect>
 			<Effect type="TechStatus" status="active">AAStandardStartingTechs</Effect>
 			<Effect type="TechStatus" status="obtainable">GuardHussars</Effect>
@@ -17255,10 +17258,10 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Rodelero" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Rodelero" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age2</Effect>
@@ -17544,10 +17547,13 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpHorseArtillery" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -17612,7 +17618,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
@@ -17637,7 +17643,7 @@
 			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Lancer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="xpHorseArtillery" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17698,7 +17704,7 @@
 			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Rodelero" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Culverin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
