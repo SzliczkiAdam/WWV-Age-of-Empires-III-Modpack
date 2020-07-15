@@ -1664,7 +1664,7 @@
 	<soundset name="NuggetFound" volume="0.2500" maxnum="4" distance="1.0000">
 		<sound filename="NuggetFound.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="SheepFattened" volume="0.2000" maxnum="4" distance="1.0000">
+	<soundset name="SheepFattened" volume="0.4000" maxnum="4" distance="1.0000">
 		<sound filename="SheepDie.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="CantDoThat" volume="0.8000" maxnum="1" distance="1.0000">
@@ -2840,17 +2840,17 @@
 		<sound filename="TravoisAmbient1.wav" volume="1.0000"/>
 		<sound filename="TravoisAmbient2.wav" volume="0.7000"/>
 	</soundset>
-	<soundset name="SheepSelect" volume="0.4500" maxnum="4" distance="1.0000">
+	<soundset name="SheepSelect" volume="0.6000" maxnum="4" distance="1.0000">
 		<sound filename="SheepSelect.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="SheepAcknowledge" volume="0.3500" maxnum="4" distance="1.0000">
+	<soundset name="SheepAcknowledge" volume="0.6000" maxnum="4" distance="1.0000">
 		<sound filename="SheepMove.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="AmbienceSheep" volume="0.4500" maxnum="1" distance="1.0000">
+	<soundset name="AmbienceSheep" volume="0.6000" maxnum="1" distance="1.0000">
 		<sound filename="SheepAmbient1.wav" volume="0.7000"/>
 		<sound filename="SheepAmbient2.wav" volume="1.0000"/>
 	</soundset>
-	<soundset name="SheepDie" volume="0.2000" maxnum="4" distance="1.0000">
+	<soundset name="SheepDie" volume="0.60000" maxnum="4" distance="1.0000">
 		<sound filename="SheepDie.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="BearSelect" volume="0.5500" maxnum="4" distance="1.0000">
