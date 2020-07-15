@@ -10,6 +10,30 @@
 				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -367,7 +391,34 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-							<Target type="ProtoUnit">SPCAlain2</Target>
+				<Target type="ProtoUnit">SPCAlain2</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCHoopThrowers</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
@@ -691,6 +742,33 @@
 				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCHoopThrowers</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -974,6 +1052,30 @@
 				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Pilgrim</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -1253,6 +1355,30 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCAlain2</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">			
 				<Target type="ProtoUnit">SPCOssuary</Target>
@@ -1543,7 +1669,34 @@
 				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCHoopThrowers</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Pilgrim</Target>
@@ -1796,6 +1949,30 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Pilgrim</Target>
@@ -2064,7 +2241,34 @@
 				<Target type="ProtoUnit">SPCAlain2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCHoopThrowers</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Pilgrim</Target>
@@ -2631,7 +2835,34 @@
 				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SPCHoopThrowers</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Pilgrim</Target>
@@ -3191,6 +3422,30 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCOssuary</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercGreatCannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercNinja</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MercRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkChinese3</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Pilgrim</Target>
@@ -40555,131 +40810,26 @@
 	<Tech name="SaloonWildWest" type="Normal">
 		<DBID>3437</DBID>
 		<DisplayNameID>47002</DisplayNameID>
-		<Cost resourcetype="Food">400.0000</Cost>
-		<Cost resourcetype="Wood">500.0000</Cost>
+		<Cost resourcetype="Food">350.0000</Cost>
+		<Cost resourcetype="Gold">750.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>47001</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
-		<Prereqs>
-			<TechStatus status="Active">Industrialize</TechStatus>
-		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="SPCXPHolme" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="SaloonOutlawPistol" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="SaloonOutlawRider" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">SaloonOutlawRider</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">SaloonOutlawRider</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">SaloonPirate</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">SaloonPirate</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypWokouBlindMonk</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypWokouBlindMonk</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypWokouWaywardRonin</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypWokouWaywardRonin</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypWokouWanderingHorseman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypWokouWanderingHorseman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypWokouPirate</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypWokouPirate</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantSmuggler</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantSmuggler</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantWaywardRonin</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantWaywardRonin</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantThuggee</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantOutlawRifleman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantOutlawRifleman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantOutlawRider</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantOutlawRider</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantOutlawPistol</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantOutlawPistol</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantPirate</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantPirate</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantWanderingHorseman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantWanderingHorseman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantDacoit</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypRepentantDacoit</Target>
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="SaloonOutlawRifleman" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>

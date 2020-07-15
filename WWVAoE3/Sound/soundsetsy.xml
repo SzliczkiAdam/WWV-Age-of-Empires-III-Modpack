@@ -2051,5 +2051,7 @@
 	<soundset name="WonderDestroyed" volume="0.6000" maxnum="3" distance="1.0000">
 		<sound filename="ypack\UI\WonderDeath.wav" volume="0.7000"/>
 	</soundset>
-	
+	<soundset name="IndianBirth" volume="1.0000" maxnum="3" distance="1.0000">
+		<sound filename="ypack\IndianBirth.wav" volume="1.0000"/>
+	</soundset>
 </soundsetdef>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="ypMonkChinese3">
+		<soundtype name="Select">
+			<soundset name="IndianThuggeeSelect"/>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="GenericMaleGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="IndianThuggeeDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="IndianBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="IndianThuggeeAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="IndianThuggeeAttack"/>
+				</choice>
+				<choice name="build"/>
+				<choice name="Huntable"/>
+				<choice name="Tree"/>
+				<choice name="AbstractMine"/>
+				<choice name="AbstractFarm"/>
+				<choice name="AbstractResourceCrate"/>
+				<choice name="AbstractFruit"/>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

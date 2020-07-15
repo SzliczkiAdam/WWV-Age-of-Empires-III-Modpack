@@ -12,7 +12,7 @@
 			<soundset name="IndianThuggeeDeath"/>
 		</soundtype>
 		<soundtype name="Creation">
-			<soundset name="MilitaryBirth"/>
+			<soundset name="IndianBirth"/>
 		</soundtype>
 		<soundtype name="Acknowledge">
 			<targetlogic>
